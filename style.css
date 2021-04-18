@@ -83,11 +83,18 @@ body {
     justify-self: unset;
 }
 
-/*tech*/
-
-.tech {
+/**skills**/
+.skills-section {
+    align-items: center;
+}
+.skills-section h2 {
+    align-items: center;
     text-align: center;
     font-size: 28px;
-    line-height: 1.333;
-    margin-top: 18px;
+    margin-bottom: 1px;
+}
+.skills-section .skills-text {
+    text-align: center;
+    font-size: 21px;
+    margin-top: 1.5px;
 }
