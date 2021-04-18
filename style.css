@@ -82,3 +82,12 @@ body {
     align-self: 20px;
     justify-self: unset;
 }
+
+/*tech*/
+
+.tech {
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.333;
+    margin-top: 18px;
+}
