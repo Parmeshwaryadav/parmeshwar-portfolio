@@ -57,7 +57,7 @@ body {
 .hero-heading {
     text-align: center;
     margin-bottom: 8px;
-    color : #1F2937;
+    color : var(--secondary-color);
 }
 .hero-Text {
     margin-top: 5px;
@@ -92,9 +92,24 @@ body {
     text-align: center;
     font-size: 28px;
     margin-bottom: 1px;
+    margin-top: 1px;
 }
 .skills-section .skills-text {
     text-align: center;
-    font-size: 21px;
+    font-size: 19px;
     margin-top: 1.5px;
+    margin-bottom: 15px;
 }
+.skills-section .skills-icons {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    font-size: 60px;
+}
+.container {
+    background-color: #E5E7EB;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+/**footer**/
