@@ -80,10 +80,9 @@ body {
     color: white;
     border-radius: 1rem;
     align-self: 20px;
-    justify-self: unset;
 }
 
-/**skills**/
+/**skills section**/
 .skills-section {
     align-items: center;
 }
@@ -104,12 +103,47 @@ body {
     display: flex;
     flex-direction: row;
     place-content: center;
-    font-size: 60px;
+    font-size: 50px;
+    gap: 2px;
 }
 .container {
     background-color: #E5E7EB;
     padding: 1rem 1rem;
     border-radius: 1rem;
 }
-
+/*project button*/
+.button2 {
+    text-align: center;
+}
+.button-link2 {
+    text-decoration: none;
+    font-size: 18px;
+    border: 3px solid var(--primary-color);
+    padding: 0.4rem 0.9rem;
+    color: var(--primary-color);
+    border-radius: 1rem;
+}
+    
+    
 /**footer**/
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.footer-text {
+    font-size: 20px;
+}
+.footer-icons {
+    padding : 1rem;
+    padding-left: 30px;
+    gap: 50px;
+}
+.footer .icon-links {
+    font-size: 30px;
+    letter-spacing: 22px;
+    content: absolute;
+}
