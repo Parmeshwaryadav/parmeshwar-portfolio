@@ -150,6 +150,7 @@ footer {
     padding: 10px;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
+    padding-bottom: 0;
 }
 
 .footer-text {
@@ -160,10 +161,11 @@ footer {
     padding: 1rem;
     padding-left: 30px;
     gap: 50px;
+    padding-bottom: 10px;
 }
 
 .footer .icon-links {
     font-size: 30px;
-    letter-spacing: 22px;
+    letter-spacing: 30px;
     content: absolute;
 }
