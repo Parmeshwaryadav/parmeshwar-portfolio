@@ -19,8 +19,7 @@ body {
     border-bottom-left-radius: 1rem;
     margin-bottom: 17px;
 }
-
-.nav-brand {
+.navigation .nav-brand {
     font-weight: bold;
     text-decoration: none;
     color: white;
