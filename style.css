@@ -18,6 +18,7 @@ body {
     color: white;
     padding: 0.1px;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     margin-bottom: 15px;
 }
 .navigation .nav-brand {
@@ -32,6 +33,8 @@ body {
     list-style: none;
     padding-inline-start: 0px;
     text-align: right;
+    margin: 10px;
+
 }
 
 .active-link {
@@ -40,7 +43,7 @@ body {
 
 .nav-list-item {
     display: inline;
-    padding: 0rem 0.4rem;
+    padding: 0rem 0.3rem;
     font-size: 20px;
 }
 
@@ -49,6 +52,8 @@ body {
     padding: 0rem 1rem;
     text-decoration: none;
     color: white;
+    position: relative;
+    bottom: 10px;
 }
 
 /**header**/
@@ -90,7 +95,6 @@ body {
     padding: 0.4rem 0.9rem;
     color: white;
     border-radius: 1rem;
-    align-self: 20px;
 }
 
 /**skills section**/
@@ -155,7 +159,7 @@ footer {
     background-color: var(--primary-color);
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 3px;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
     padding-bottom: 0;
@@ -163,6 +167,7 @@ footer {
 
 .footer-text {
     font-size: 20px;
+    margin-top: 1vh;
 }
 
 .footer-icons {
@@ -176,4 +181,78 @@ footer {
     font-size: 30px;
     letter-spacing: 30px;
     content: absolute;
+}
+.copyright {
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+
+}
+/*===project.html===*/
+.project-header {
+    
+}
+.project-header .project-image {
+    max-width: 80%;
+    width: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.project-heading {
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+}
+/**project-List**/
+.project-ul {
+    margin: 0px;
+    padding: 0px;
+    padding: 12px   ;
+    
+}
+.project-li {
+    list-style: none;
+    padding-inline-start: 0px;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    font-size: 18px;
+    margin: 0px;
+}
+h2.list-header {
+    margin: 0;
+}
+.project-ul .h2 {
+    margin: 0px;
+}
+.skills-text {
+    margin: 8px;
+    font-size: 1rem;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+.view-project {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: var(--primary-color);
+    padding: 0.3rem 0.5rem;
+    color: white;
+    border-radius: 1rem;
+    text-align: center;
+    margin-right: 2px;
+}
+.view-code {
+    text-decoration: none;
+    font-size: 20px;
+    border: 3px solid var(--primary-color);
+    padding: 0.1rem 0.5rem;
+    color: var(--primary-color);
+    border-radius: 1rem;
 }
