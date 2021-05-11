@@ -1,4 +1,4 @@
-# [parmeshwar-portfolio](https://parmeshwar-portfolio.vercel.app/)
+# [parmeshwar-portfolio](https://parmeshwar.vercel.app/)
 
    **Create a Simple HTMl5 , CSS3 site.**
 
@@ -12,4 +12,4 @@
 
 the website is deployed on [vercel](https://vercel.com/)
 
-### [Click To View Live Site](https://parmeshwar-portfolio.vercel.app/)
+### [Click To View Live Site](https://parmeshwar.vercel.app/)
