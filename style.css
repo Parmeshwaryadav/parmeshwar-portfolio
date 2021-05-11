@@ -219,6 +219,7 @@ footer {
     place-content: center;
     font-size: 18px;
     margin: 0px;
+    margin-bottom: 8px;
 }
 h2.list-header {
     margin: 0;
